@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<title>Página de Receitas</title>
+<style>
+  /* Aplicar uma cor de fundo agradável e definir a fonte padrão */
+  body {
+    background-color: #f0e6f6; /* Cor de fundo suave e agradável */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Para alinhar ao topo */
+    min-height: 100vh; /* Para ocupar toda a altura da viewport */
+  }
+
+  /* Centralizar a caixa que contém o conteúdo e aplicar sombra e borda arredondada */
+  .container {
+    max-width: 800px; /* Limitar a largura para melhor leitura */
+    background-color: #ffffff; /* Fundo branco na caixa centralizada */
+    padding: 20px;
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border: 1px solid #ddd; /* Borda sutil */
+    text-align: center; /* Centraliza o conteúdo */
+  }
+
+  /* Destacar o título principal com uma fonte maior e estilosa */
+  h1 {
+    font-family: 'Pacifico', cursive; /* Fonte estilosa, pode usar Google Fonts se desejar */
+    font-size: 2.5em;
+    color: #6a1b9a; /* Cor agradável */
+    margin-bottom: 20px;
+  }
+
+  /* Estilizar o título da receita */
+  h2 {
+    font-family: Georgia, serif;
+    font-size: 2em;
+    color: #4a148c;
+    margin-top: 20px;
+  }
+
+  /* Estilizar o título de ingredientes */
+  h3 {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+  }
+
+  /* Estilizar listas de ingredientes e modo de preparo */
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left; /* Alinha os itens à esquerda */
+    margin: 10px 0;
+  }
+
+  li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: #555;
+  }
+
+  /* Ajustar a imagem para ter cantos arredondados e borda */
+  img {
+    border-radius: 15px; /* Cantos arredondados na imagem */
+    border: 2px solid #ddd; /* Borda na imagem */
+    max-width: 100%; /* Responsividade */
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Receitas Favoritas</h1>
+  <article>
+    <h2>Bolo de Chocolate</h2>
+    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Bolo de Chocolate" />
+    <p>Uma deliciosa receita de bolo de chocolate fácil de fazer.</p>
+    <h3>Ingredientes</h3>
+    <ul>
+      <li>2 xícaras de açúcar</li>
+      <li>3 ovos</li>
+      <li>1 xícara de cacau em pó</li>
+      <li>2 xícaras de farinha de trigo</li>
+      <li>1 xícara de óleo</li>
+      <li>1 xícara de leite</li>
+    </ul>
+  </article>
+</div>
+</body>
+</html>
